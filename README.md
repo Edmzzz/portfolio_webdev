@@ -5,7 +5,7 @@ This repository showcases my portfolio projects and webpages, including navigati
 ## Table of Contents
 - [Description](#description)
 - [How to Run the Portfolio Locally](#how-to-run-the-portfolio-locally)
-- [Unique HTML Elements and Tags Used](#unique-html-elements-and-tags-used)
+- [HTML Elements and Tags Used](#html-elements-and-tags-used)
 
 ## Description
 This portfolio highlights several of my web development projects, with an easy-to-navigate homepage, links to various sections including projects, skills, and a contact page. Each project is detailed with descriptions, images, and GitHub links for further exploration. This project is designed with beginner-friendly code, but it's structured to demonstrate my growing knowledge in front-end development.
@@ -15,15 +15,7 @@ This portfolio highlights several of my web development projects, with an easy-t
 - **Projects**: Details my major projects, including Text File Compression, Login and Signup System, and Point of Sales (POS) System.
 - **Skills**: Lists the programming languages and technologies I am familiar with.
 - **Contact**: Provides a form to send me messages via email and links to my social media profiles.
-
-
-### Breakdown of the HTML Elements:
-1. **`<form>`**: Describes the form used on the contact page.
-2. **`<input>`**: Describes input fields for text and email within the form.
-3. **`<textarea>`**: Describes the multi-line text input field for messages.
-4. **`<img>`**: Describes how images are used for icons and screenshots.
-5. **`<table>`**: Describes the table used to organize skills on the skills page.
-
+- 
 ## How to Run the Portfolio Locally
 
 ### Prerequisites
@@ -34,3 +26,11 @@ This portfolio highlights several of my web development projects, with an easy-t
 1. Open your terminal and clone the repository:
    ```bash
    git clone https://github.com/Edmzzz/portfolio_webdev.git
+
+   ### HTML Elements and Tags Used:
+1. **`<form>`**: Describes the form used on the contact page.
+2. **`<input>`**: Describes input fields for text and email within the form.
+3. **`<textarea>`**: Describes the multi-line text input field for messages.
+4. **`<img>`**: Describes how images are used for icons and screenshots.
+5. **`<table>`**: Describes the table used to organize skills on the skills page.
+
