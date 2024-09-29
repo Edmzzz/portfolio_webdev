@@ -1,17 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- head tag -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Uriel</title>
 </head>
-<!-- body tag -->
+
 <body>
-    <section>
-        <h1><font face="Impact">Uriel Papa</font></h1>
-        <h2><font face="Impact">Back End Developer</font></h2>
-            <p><font face="Arial">Hi, I’m Uriel Papa, and I’m learning to become a back-end developer. I love coding and I’m excited to keep learning and improving as I explore web development.</font></p>
-            <image src="uriel.png" alt="Uriel Papa" width="300" height="300">
-    </section>
+<!-- Header with Navigation Menu --> 
+    <header>
+        <div>
+            <nav><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <font face="Impact" size="5">
+                    <a href="homepage.html">
+                        <img src="home_icon.png" alt="Home" width="80" height="80"> 
+                    </a>
+                    <a href="projects.html">
+                        <img src="projects_icon.png" alt="Projects" width="80" height="80"> 
+                    </a> 
+                    <a href="skills.html">
+                        <img src="skills_icon.png" alt="Skills" width="80" height="80">
+                    </a> 
+                    <a href="contact.html">
+                        <img src="contact_icon.png" alt="Contact" width="80" height="80">
+                    </a>
+                </font>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Centering the entire content using <center> tag -->
+    <center>
+        <section id="home"> <br><br><br>    
+            <table>
+                <tr>
+                    <!-- Left column for the image -->
+                    <td>
+                        <img src="uriel.png" alt="Uriel Papa" width="400" height="400">
+                    </td>
+                    <!-- Right column for the text -->
+                    <td>
+                        <!-- Font size and color applied via font tag -->
+                        <h1><font face="Verdana" size="7">Uriel Papa</font></h1>
+                        <h2><font face="Verdana" size="5"><i>Aspiring Back End Developer</i></font></h2>
+                        <p><font face="Arial">
+                            <br>I'm an Information System student at Technological University of the Philippines and<br><br>
+                            I’m learning to become a back-end developer. I love coding and I’m excited<br><br>
+                            to keep learning and improving as I explore web development.
+                        </font></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <table bgcolor="black" width="100%">
+            <tr>
+                <td>
+                    <!-- Section inside the table appears to inherit the black background -->
+                    <section id="about">
+                        <br><br><br>
+                        <center>
+                            <h2><font face="Verdana" size="6" color="white">About Me</font></h2>
+                            <p><font face="Arial" color="white">
+                                Hi, I'm Uriel, a 21-year-old 3rd-year student at TUP-Manila, pursuing a Bachelor of Science in Information Systems.<br><br>
+                                I'm currently developing projects using HTML, CSS, JavaScript, PHP, and WordPress, gaining practical experience in web development.<br><br>
+                                Alongside coding, I have a solid understanding of Search Engine Optimization (SEO) and have worked with tools like Google Search Console<br><br>
+                                and Ahrefs to improve website rankings. My skills include applying both on-page and off-page SEO strategies, optimizing content and technical<br><br>
+                                aspects for better visibility. Additionally, I have experience in selecting and acquiring quality domains to enhance SEO efforts.<br><br>
+                            </font></p>
+
+                            <br><br>
+                            <!-- CV Button -->
+                            <a href="PapaResume.pdf" download>
+                                <button>
+                                    <b>Download CV</b>
+                                </button>
+                            </a>
+                             
+                        </center><br><br><br>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+</body>
+
+</html>
