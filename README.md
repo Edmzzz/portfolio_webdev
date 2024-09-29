@@ -27,7 +27,7 @@ This portfolio highlights several of my web development projects, with an easy-t
    ```bash
    git clone https://github.com/Edmzzz/portfolio_webdev.git
 
-   ### HTML Elements and Tags Used:
+### HTML Elements and Tags Used:
 1. **`<form>`**: Describes the form used on the contact page.
 2. **`<input>`**: Describes input fields for text and email within the form.
 3. **`<textarea>`**: Describes the multi-line text input field for messages.
