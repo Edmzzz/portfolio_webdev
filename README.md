@@ -1,76 +1,36 @@
 # Uriel's Web Development Portfolio
 
-Welcome to my web development portfolio. This repository showcases several projects and webpages I've worked on, including a personal website with navigation, a skills page, a contact form, and links to some of my projects hosted on GitHub.
+This repository showcases my portfolio projects and webpages, including navigation, skills, a contact form, and links to my other projects hosted on GitHub. The site is built using HTML, CSS, and a bit of JavaScript for functionality.
 
 ## Table of Contents
-- [Homepage](#homepage)
-- [Projects](#projects)
-- [Skills](#skills)
-- [Contact](#contact)
-- [Technologies Used](#technologies-used)
+- [Description](#description)
+- [How to Run the Portfolio Locally](#how-to-run-the-portfolio-locally)
+- [Unique HTML Elements and Tags Used](#unique-html-elements-and-tags-used)
 
-## Homepage
-The homepage introduces me and my aspirations as a backend developer. It includes navigation to different sections of my website and a brief description of my current studies and career goals.
+## Description
+This portfolio highlights several of my web development projects, with an easy-to-navigate homepage, links to various sections including projects, skills, and a contact page. Each project is detailed with descriptions, images, and GitHub links for further exploration. This project is designed with beginner-friendly code, but it's structured to demonstrate my growing knowledge in front-end development.
 
-- **Technologies**: HTML, CSS
-- **Navigation Links**:
-  - Home
-  - Projects
-  - Skills
-  - Contact
+### Project Pages Include:
+- **Homepage**: Introduces who I am and what I do, with links to projects, skills, and contact information.
+- **Projects**: Details my major projects, including Text File Compression, Login and Signup System, and Point of Sales (POS) System.
+- **Skills**: Lists the programming languages and technologies I am familiar with.
+- **Contact**: Provides a form to send me messages via email and links to my social media profiles.
 
-## Projects
-This section highlights three of my main projects, each with a description, images, and links to their GitHub repositories:
 
-1. **Text File Compression**:
-   - Description: A project focused on compressing and decompressing text files using custom algorithms.
-   - Technologies Used: C++, Huffman Encoding
-   - [View Project on GitHub](https://github.com/Edmzzz/portfolio_webdev/tree/ba874a9a4611c7ca36e5bc2afbe010b90f3d9d65/Text%20File%20Compression)
+### Breakdown of the HTML Elements:
+1. **`<form>`**: Describes the form used on the contact page.
+2. **`<input>`**: Describes input fields for text and email within the form.
+3. **`<textarea>`**: Describes the multi-line text input field for messages.
+4. **`<img>`**: Describes how images are used for icons and screenshots.
+5. **`<table>`**: Describes the table used to organize skills on the skills page.
 
-2. **Login and Signup System**:
-   - Description: A login and signup system that allows users to register, sign in, and update their account details.
-   - Technologies Used: Java, MySQL
-   - [View Project on GitHub](https://github.com/Edmzzz/portfolio_webdev/tree/ba874a9a4611c7ca36e5bc2afbe010b90f3d9d65/Login%20and%20Registration%20System)
+## How to Run the Portfolio Locally
 
-3. **Point of Sales (POS) System**:
-   - Description: A Point of Sales system for managing sales, inventory, and transactions.
-   - Technologies Used: C++
-   - [View Project on GitHub](https://github.com/Edmzzz/portfolio_webdev/tree/ba874a9a4611c7ca36e5bc2afbe010b90f3d9d65/Point%20of%20Sales)
+### Prerequisites
+- You must have **VSCode** installed on your machine.
+- Install the **Live Server extension** for VSCode.
 
-## Skills
-This section showcases my proficiency in various technologies. My skills are displayed in a table format, with a focus on beginner-level web development languages.
-
-| Skill       | Proficiency Level |
-|-------------|-------------------|
-| C           | Beginner          |
-| C++         | Beginner          |
-| Java        | Beginner          |
-| PHP         | Beginner          |
-| HTML        | Beginner          |
-| CSS         | Beginner          |
-| JavaScript  | Beginner          |
-
-## Contact
-The contact page includes links to my social media profiles and a simple contact form that allows visitors to send messages directly to my email.
-
-- **Social Media Links**:
-  - [Facebook](https://web.facebook.com/yurieyel)
-  - [GitHub](https://github.com/Edmzzz)
-  - [LinkedIn](https://www.linkedin.com/in/uriel-papa-6a6244244/)
-  
-- **Technologies**: HTML (for the contact form), Mailto method for sending messages.
-
-### Example Contact Form
-```html
-<form action="mailto:urielpapa26@gmail.com" method="POST" enctype="text/plain">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required size="30"><br><br>
-
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required size="30"><br><br>
-
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" cols="33" required></textarea><br><br>
-
-    <button type="submit">Send</button>
-</form>
+### Steps to Clone and Run the Repository:
+1. Open your terminal and clone the repository:
+   ```bash
+   git clone https://github.com/Edmzzz/portfolio_webdev.git
